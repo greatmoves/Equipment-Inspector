@@ -1,4 +1,4 @@
-package net.runelite.client.plugins.equipmentinspector;
+package equipmentinspector;
 
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.ItemComposition;

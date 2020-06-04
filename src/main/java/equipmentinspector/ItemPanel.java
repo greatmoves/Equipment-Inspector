@@ -1,4 +1,4 @@
-package net.runelite.client.plugins.equipmentinspector;
+package equipmentinspector;
 
 import net.runelite.api.ItemComposition;
 import net.runelite.api.kit.KitType;
@@ -59,6 +59,7 @@ class ItemPanel extends JPanel
         JPopupMenu popupMenu = new JPopupMenu();
         popupMenu.setBorder(new EmptyBorder(5, 5, 5, 5));
         popupMenu.add(wiki);
+
 
         layout.setVerticalGroup(layout.createParallelGroup()
                 .addComponent(imageLabel)
